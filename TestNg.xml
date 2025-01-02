@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Suite" verbose="2" parallel="methods" thread-count="2" >
+    <test name="Sample Test">
+    <!--    <groups>
+            <run>
+                <include name="vivo"/>
+                <include name="samsung"/>
+                <include name="apple"/>
+            </run>
+        </groups>-->
+        <classes>
+            <class name="testNg.ParallelTesting"/>
+
+        </classes>
+    </test>
+</suite>

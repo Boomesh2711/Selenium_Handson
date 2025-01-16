@@ -20,7 +20,7 @@ public class AutoCompleteExamples {
         driver.manage().timeouts().implicitlyWait(10, java.util.concurrent.TimeUnit.SECONDS);
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("arguments[0].click()", Pom.Autocomplete(driver));
-
+//
 
         //   Pom.Autocomplete(driver).click();
         Pom.Autocomplete(driver).sendKeys("Sel");
